@@ -20,7 +20,7 @@
 						enable:true,
 						idKey: "id",
 						pIdKey: "pId",
-						rootPId: 0,
+						rootPId: 0
 					}
 				},
 				view:{
