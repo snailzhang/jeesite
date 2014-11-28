@@ -95,8 +95,10 @@
             </form>
         </div>
     </div>
-    <footer class="white navbar-fixed-bottom">
+    <footer class="white navbar-fixed-bottom"><%--
 		Copyright &copy; 2012-${fns:getConfig('copyrightYear')} <a href="${pageContext.request.contextPath}${fns:getFrontPath()}">${fns:getConfig('productName')}</a> - Powered By <a href="https://github.com/thinkgem/jeesite" target="_blank">JeeSite</a> ${fns:getConfig('version')}
+    --%>
+    		Copyright &copy; 2014-${fns:getConfig('copyrightYear')} <a href="${pageContext.request.contextPath}${fns:getFrontPath()}">${fns:getConfig('productName')}</a> - Powered By <a href="http://www.hrbesd.com/" target="_blank">哈尔滨亿时代数码科技开发有限公司</a> ${fns:getConfig('version')}
     </footer>
   </body>
 </html>
