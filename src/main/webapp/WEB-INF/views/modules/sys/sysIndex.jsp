@@ -28,7 +28,8 @@
 	<div id="main">
 		<div id="header" class="navbar navbar-fixed-top">
 	      <div class="navbar-inner">
-	      	 <div class="brand">${fns:getConfig('productName')}</div>
+	      	 <div class="brand">办 公 系 统</div>
+	      	  <%--<div class="brand">${fns:getConfig('productName')}</div>	         --%>
 	         <div class="nav-collapse">
 	           <ul id="menu" class="nav">
 				 <c:set var="firstMenu" value="true"/>
@@ -85,7 +86,8 @@
 				</div>
 			</div>
 		    <div id="footer" class="row-fluid">
-	            Copyright &copy; 2012-${fns:getConfig('copyrightYear')} ${fns:getConfig('productName')} - Powered By <a href="https://github.com/thinkgem/jeesite" target="_blank">JeeSite</a> ${fns:getConfig('version')}
+		    	           <%-- Copyright &copy; 2012-${fns:getConfig('copyrightYear')} ${fns:getConfig('productName')} - Powered By <a href="https://github.com/thinkgem/jeesite" target="_blank">JeeSite</a> ${fns:getConfig('version')}--%>
+	            Copyright &copy; 2014-${fns:getConfig('copyrightYear')} ${fns:getConfig('productName')} - Powered By <a href="http://www.hrbesd.com/" target="_blank">哈尔滨亿时代数码科技开发有限公司</a> ${fns:getConfig('version')}
 			</div>
 		</div>
 	</div>
