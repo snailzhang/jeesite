@@ -14,6 +14,9 @@
 <div class="container">
     <div class="row">
         <div class="span12">
+        	请在左侧“模板列表”中选择（非公共模型）栏目。 
+        
+        <%--
             <section id="download-bootstrap">
                 <div class="page-header">
                     <h1>1. 下载</h1>
@@ -33,7 +36,7 @@
                     </div>
                 </div>
             </section>
-        </div>
+        --%></div>
     </div>
 </div>
 </body>
